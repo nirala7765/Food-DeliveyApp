@@ -55,11 +55,14 @@ const getUserByEmail = async (req,res)=>{
     }
 }
 
+
+
 module.exports ={
     signupUser,
     getAllusers,
     loginUsers,
     getUserByEmail,
+   
 
 
 
